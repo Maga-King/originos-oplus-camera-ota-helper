@@ -22,7 +22,9 @@ class SourceTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d,patch('sources.run_adb') as adb:
             root=Path(d);p=root/'system/lib64/libtest.so';p.parent.mkdir(parents=True);p.write_bytes(b'fixture')
             s=Sources(Inputs(target_rom=d),root/'cache')
-            self.assertEqual(s.resolve('target','system/lib64/libtest.so'),p)
+            # Windows TEMP may use RUNNER~1 while Rom resolves the long path.
+            # Verify the actual file, not two spellings of the same NTFS path.
+            self.assertTrue(s.resolve('target','system/lib64/libtest.so').samefile(p))
             adb.assert_not_called()
     def device_source(self,root):
         return Sources(Inputs(adb_enabled=True),root,lambda _:None)
