@@ -1,0 +1,40 @@
+name: 构建完整 Windows 工具
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  windows:
+    runs-on: windows-2022
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 下载完整固定版素材（不是下载别人的已生成相机模块）
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download v0.1.2-preview --repo Maga-King/originos-oplus-camera-ota-helper --pattern 'OriginOSCameraOTA-v0.1.2-preview-windows-full.zip' --dir .materials
+          python -c "import zipfile; zipfile.ZipFile('.materials/OriginOSCameraOTA-v0.1.2-preview-windows-full.zip').extractall('.materials/unpacked')"
+          python restore_release_materials.py --portable .materials/unpacked/OriginOSCameraOTA
+      - name: 安装 Python 构建依赖
+        run: python -m pip install -r requirements.txt
+      - name: 源码测试与重新编译 EXE
+        working-directory: tools/OriginOSCameraOTA
+        run: |
+          python -m unittest discover -p 'test_*.py' -v
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python -m PyInstaller --noconfirm OriginOSCameraOTA.spec
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: 打包全部运行材料并检查 EXE
+        run: python ci/package_windows.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: OriginOSCameraOTA-Windows-完整工具
+          path: out/OriginOSCameraOTA-windows-complete.zip
+          compression-level: 0
+          retention-days: 7
+          if-no-files-found: error

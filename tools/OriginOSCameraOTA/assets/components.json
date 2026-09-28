@@ -1,0 +1,2275 @@
+{
+  "kind": "originos-reusable-components-not-complete-module",
+  "files": [
+    {
+      "path": "customize.sh",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\customize.sh",
+      "bytes": 788
+    },
+    {
+      "path": "grant-camera-permissions.sh",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\grant-camera-permissions.sh",
+      "bytes": 1069
+    },
+    {
+      "path": "service.sh",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\service.sh",
+      "bytes": 1309
+    },
+    {
+      "path": "system/etc/default-permissions/default-permissions-mio-originos-oplus-camera-gallery.xml",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\etc\\default-permissions\\default-permissions-mio-originos-oplus-camera-gallery.xml",
+      "bytes": 1507
+    },
+    {
+      "path": "system/etc/permissions/privapp-permissions-oplus.xml",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\etc\\permissions\\privapp-permissions-oplus.xml",
+      "bytes": 46532
+    },
+    {
+      "path": "system/etc/sysconfig/hiddenapi-package-oplus-whitelist.xml",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\etc\\sysconfig\\hiddenapi-package-oplus-whitelist.xml",
+      "bytes": 671
+    },
+    {
+      "path": "system/fonts/OPSans-En-Regular.ttf",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\fonts\\OPSans-En-Regular.ttf",
+      "bytes": 329388
+    },
+    {
+      "path": "system/fonts/SysSans-En-Regular.ttf",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\fonts\\SysSans-En-Regular.ttf",
+      "bytes": 472560
+    },
+    {
+      "path": "system/fonts/SysSans-Hans-Regular.ttf",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\fonts\\SysSans-Hans-Regular.ttf",
+      "bytes": 23022820
+    },
+    {
+      "path": "system/fonts/SysSans-Hant-Regular.ttf",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\fonts\\SysSans-Hant-Regular.ttf",
+      "bytes": 11226024
+    },
+    {
+      "path": "system/lib64/android.frameworks.cameraservice.common@2.0.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\android.frameworks.cameraservice.common@2.0.so",
+      "bytes": 35336
+    },
+    {
+      "path": "system/lib64/android.frameworks.cameraservice.device@2.0.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\android.frameworks.cameraservice.device@2.0.so",
+      "bytes": 253224
+    },
+    {
+      "path": "system/lib64/android.frameworks.cameraservice.device@2.1.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\android.frameworks.cameraservice.device@2.1.so",
+      "bytes": 152200
+    },
+    {
+      "path": "system/lib64/android.frameworks.cameraservice.service@2.0.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\android.frameworks.cameraservice.service@2.0.so",
+      "bytes": 169752
+    },
+    {
+      "path": "system/lib64/android.frameworks.cameraservice.service@2.1.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\android.frameworks.cameraservice.service@2.1.so",
+      "bytes": 185984
+    },
+    {
+      "path": "system/lib64/android.frameworks.cameraservice.service@2.2.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\android.frameworks.cameraservice.service@2.2.so",
+      "bytes": 119240
+    },
+    {
+      "path": "system/lib64/android.hardware.camera.device-V3-ndk.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\android.hardware.camera.device-V3-ndk.so",
+      "bytes": 185216
+    },
+    {
+      "path": "system/lib64/android.hardware.camera.provider-V3-ndk.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\android.hardware.camera.provider-V3-ndk.so",
+      "bytes": 85600
+    },
+    {
+      "path": "system/lib64/android.hardware.camera.provider@2.4.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\android.hardware.camera.provider@2.4.so",
+      "bytes": 186008
+    },
+    {
+      "path": "system/lib64/android.hardware.camera.provider@2.5.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\android.hardware.camera.provider@2.5.so",
+      "bytes": 119088
+    },
+    {
+      "path": "system/lib64/android.hardware.camera.provider@2.6.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\android.hardware.camera.provider@2.6.so",
+      "bytes": 185864
+    },
+    {
+      "path": "system/lib64/android.hardware.camera.provider@2.7.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\android.hardware.camera.provider@2.7.so",
+      "bytes": 152248
+    },
+    {
+      "path": "system/lib64/libaiunit_sdk_core.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libaiunit_sdk_core.so",
+      "bytes": 12816
+    },
+    {
+      "path": "system/lib64/libAncFilter_jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libAncFilter_jni.so",
+      "bytes": 817352
+    },
+    {
+      "path": "system/lib64/libAncHumanDoubleExposure-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libAncHumanDoubleExposure-jni.so",
+      "bytes": 330016
+    },
+    {
+      "path": "system/lib64/libAncHumanRetain-jni_v2.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libAncHumanRetain-jni_v2.so",
+      "bytes": 321824
+    },
+    {
+      "path": "system/lib64/libAncHumanSegFigureFusion-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libAncHumanSegFigureFusion-jni.so",
+      "bytes": 253976
+    },
+    {
+      "path": "system/lib64/libAncHumanVideo-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libAncHumanVideo-jni.so",
+      "bytes": 264536
+    },
+    {
+      "path": "system/lib64/libAncHumBokeh-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libAncHumBokeh-jni.so",
+      "bytes": 264616
+    },
+    {
+      "path": "system/lib64/libAPSClient-alog-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libAPSClient-alog-jni.so",
+      "bytes": 6816
+    },
+    {
+      "path": "system/lib64/libAPSClient-cmd-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libAPSClient-cmd-jni.so",
+      "bytes": 1022272
+    },
+    {
+      "path": "system/lib64/libAPSClient-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libAPSClient-jni.so",
+      "bytes": 1111808
+    },
+    {
+      "path": "system/lib64/libApsFaceBeautyPreviewJni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libApsFaceBeautyPreviewJni.so",
+      "bytes": 680016
+    },
+    {
+      "path": "system/lib64/libApsSuperEISPreviewJni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libApsSuperEISPreviewJni.so",
+      "bytes": 487104
+    },
+    {
+      "path": "system/lib64/libApsTiltShifPreviewJni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libApsTiltShifPreviewJni.so",
+      "bytes": 7360
+    },
+    {
+      "path": "system/lib64/libarcsoft_gpuvideobokeh_advanced.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libarcsoft_gpuvideobokeh_advanced.so",
+      "bytes": 198736
+    },
+    {
+      "path": "system/lib64/libarcsoft_panorama_burstcapture.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libarcsoft_panorama_burstcapture.so",
+      "bytes": 1927712
+    },
+    {
+      "path": "system/lib64/libarcsoft_wideselfie.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libarcsoft_wideselfie.so",
+      "bytes": 2824328
+    },
+    {
+      "path": "system/lib64/libAvatarEngineRender.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libAvatarEngineRender.so",
+      "bytes": 2922880
+    },
+    {
+      "path": "system/lib64/libAvatarEngineRenderNative.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libAvatarEngineRenderNative.so",
+      "bytes": 2935440
+    },
+    {
+      "path": "system/lib64/libbase_camera.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libbase_camera.so",
+      "bytes": 287057
+    },
+    {
+      "path": "system/lib64/libbsproxy.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libbsproxy.so",
+      "bytes": 84904
+    },
+    {
+      "path": "system/lib64/libcamera_crdclt.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libcamera_crdclt.so",
+      "bytes": 649080
+    },
+    {
+      "path": "system/lib64/libcamserv_crd.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libcamserv_crd.so",
+      "bytes": 5471408
+    },
+    {
+      "path": "system/lib64/libColorMark.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libColorMark.so",
+      "bytes": 129000
+    },
+    {
+      "path": "system/lib64/libCombineLut.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libCombineLut.so",
+      "bytes": 416256
+    },
+    {
+      "path": "system/lib64/libCombineLutJni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libCombineLutJni.so",
+      "bytes": 8048
+    },
+    {
+      "path": "system/lib64/libdolbyeffect_4.1.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libdolbyeffect_4.1.so",
+      "bytes": 797241
+    },
+    {
+      "path": "system/lib64/libdynamic_depth.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libdynamic_depth.so",
+      "bytes": 283184
+    },
+    {
+      "path": "system/lib64/libexif-jpeg-aps.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libexif-jpeg-aps.so",
+      "bytes": 261816
+    },
+    {
+      "path": "system/lib64/libextendfile.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libextendfile.so",
+      "bytes": 977112
+    },
+    {
+      "path": "system/lib64/libFileExtender-jni.qti.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libFileExtender-jni.qti.so",
+      "bytes": 18008
+    },
+    {
+      "path": "system/lib64/libFileExtender-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libFileExtender-jni.so",
+      "bytes": 18008
+    },
+    {
+      "path": "system/lib64/libgcr.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libgcr.so",
+      "bytes": 1794272
+    },
+    {
+      "path": "system/lib64/libHdrTransform-common-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libHdrTransform-common-jni.so",
+      "bytes": 383176
+    },
+    {
+      "path": "system/lib64/libHdrTransform-platform-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libHdrTransform-platform-jni.so",
+      "bytes": 399464
+    },
+    {
+      "path": "system/lib64/libHeifEncoderWrapper.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libHeifEncoderWrapper.so",
+      "bytes": 51608
+    },
+    {
+      "path": "system/lib64/libimage-native-lib.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libimage-native-lib.so",
+      "bytes": 108672
+    },
+    {
+      "path": "system/lib64/libjni_burstpmk.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libjni_burstpmk.so",
+      "bytes": 26712
+    },
+    {
+      "path": "system/lib64/libjni_wideselfie.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libjni_wideselfie.so",
+      "bytes": 26688
+    },
+    {
+      "path": "system/lib64/libjnisingleblur_api.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libjnisingleblur_api.so",
+      "bytes": 561193
+    },
+    {
+      "path": "system/lib64/libjnistblur_api.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libjnistblur_api.so",
+      "bytes": 563209
+    },
+    {
+      "path": "system/lib64/liblivephoto.frc.jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\liblivephoto.frc.jni.so",
+      "bytes": 402184
+    },
+    {
+      "path": "system/lib64/libmpbase.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libmpbase.so",
+      "bytes": 6992
+    },
+    {
+      "path": "system/lib64/libNativeWinBuffExchange.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libNativeWinBuffExchange.so",
+      "bytes": 51624
+    },
+    {
+      "path": "system/lib64/libOPAlgoCamResize.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libOPAlgoCamResize.so",
+      "bytes": 670232
+    },
+    {
+      "path": "system/lib64/liboplus-uah-client.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\liboplus-uah-client.so",
+      "bytes": 217904
+    },
+    {
+      "path": "system/lib64/libOplusBlurPreviewJNI.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libOplusBlurPreviewJNI.so",
+      "bytes": 405120
+    },
+    {
+      "path": "system/lib64/liboplusdolbyeffect_4.1.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\liboplusdolbyeffect_4.1.so",
+      "bytes": 10704
+    },
+    {
+      "path": "system/lib64/liboplusheifwriter.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\liboplusheifwriter.so",
+      "bytes": 186296
+    },
+    {
+      "path": "system/lib64/libOplusStringJNI.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libOplusStringJNI.so",
+      "bytes": 12336
+    },
+    {
+      "path": "system/lib64/libsingle_camera_bokeh2_native.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libsingle_camera_bokeh2_native.so",
+      "bytes": 1026248
+    },
+    {
+      "path": "system/lib64/libsingle_camera_bokeh_native.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libsingle_camera_bokeh_native.so",
+      "bytes": 1143424
+    },
+    {
+      "path": "system/lib64/libSplashBufferUtils.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libSplashBufferUtils.so",
+      "bytes": 12728
+    },
+    {
+      "path": "system/lib64/libst_mobile.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libst_mobile.so",
+      "bytes": 7895520
+    },
+    {
+      "path": "system/lib64/libst_sticker_jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libst_sticker_jni.so",
+      "bytes": 348425
+    },
+    {
+      "path": "system/lib64/libSuperTextWrapper.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libSuperTextWrapper.so",
+      "bytes": 1383704
+    },
+    {
+      "path": "system/lib64/libWaterMark-Jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libWaterMark-Jni.so",
+      "bytes": 4974160
+    },
+    {
+      "path": "system/lib64/libwatermark_photo.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libwatermark_photo.so",
+      "bytes": 1419528
+    },
+    {
+      "path": "system/lib64/libXDocProcessSDK-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libXDocProcessSDK-jni.so",
+      "bytes": 1573080
+    },
+    {
+      "path": "system/lib64/libXDocProcessSDK.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libXDocProcessSDK.so",
+      "bytes": 6958712
+    },
+    {
+      "path": "system/lib64/libYTCommon.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\libYTCommon.so",
+      "bytes": 813392
+    },
+    {
+      "path": "system/lib64/process_info_service_aidl-cpp.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\process_info_service_aidl-cpp.so",
+      "bytes": 51832
+    },
+    {
+      "path": "system/lib64/vendor.oplus.hardware.cameraextension-V1-ndk.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\vendor.oplus.hardware.cameraextension-V1-ndk.so",
+      "bytes": 36072
+    },
+    {
+      "path": "system/lib64/vendor.oplus.hardware.cameraextension@1.0.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\vendor.oplus.hardware.cameraextension@1.0.so",
+      "bytes": 77576
+    },
+    {
+      "path": "system/lib64/vendor.oplus.hardware.cameraMDM@1.0.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\vendor.oplus.hardware.cameraMDM@1.0.so",
+      "bytes": 118800
+    },
+    {
+      "path": "system/lib64/vendor.oplus.hardware.performance-V1-ndk.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\vendor.oplus.hardware.performance-V1-ndk.so",
+      "bytes": 282104
+    },
+    {
+      "path": "system/lib64/vendor.oplus.hardware.sendextcamcmd-V2-ndk.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\vendor.oplus.hardware.sendextcamcmd-V2-ndk.so",
+      "bytes": 52488
+    },
+    {
+      "path": "system/lib64/vendor.oplus.hardware.urcc-V1-ndk.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\lib64\\vendor.oplus.hardware.urcc-V1-ndk.so",
+      "bytes": 151848
+    },
+    {
+      "path": "system/odm/lib64/android.hardware.graphics.common-V7-ndk.so",
+      "policy": "fixed-compatible",
+      "reason": "crDroid APS 配套 graphics.common V7 接口库",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\odm\\lib64\\android.hardware.graphics.common-V7-ndk.so",
+      "bytes": 51992
+    },
+    {
+      "path": "system/odm/lib64/libAlgoInterface.so",
+      "policy": "fixed-compatible",
+      "reason": "已验证 crDroid APS 接口兼容组合",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\odm\\lib64\\libAlgoInterface.so",
+      "bytes": 59346696
+    },
+    {
+      "path": "system/odm/lib64/libAlgoProcess.so",
+      "policy": "fixed-compatible",
+      "reason": "已验证 crDroid APS 处理兼容组合，配套 V7",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\odm\\lib64\\libAlgoProcess.so",
+      "bytes": 6572352
+    },
+    {
+      "path": "system/odm/lib64/libmsnativefilter.so",
+      "policy": "fixed-compatible",
+      "reason": "N007 已修厂商判定的滤镜库",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\odm\\lib64\\libmsnativefilter.so",
+      "bytes": 8822480
+    },
+    {
+      "path": "system/odm/lib64/libsharebuffer_impl.so",
+      "policy": "fixed-compatible",
+      "reason": "依赖 libui-stock/libutils-stock 的私有 sharebuffer 组合",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\odm\\lib64\\libsharebuffer_impl.so",
+      "bytes": 203601
+    },
+    {
+      "path": "system/system_ext/etc/default-permissions/default-permissions-mio-op13-gallery-ai.xml",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\etc\\default-permissions\\default-permissions-mio-op13-gallery-ai.xml",
+      "bytes": 846
+    },
+    {
+      "path": "system/system_ext/etc/default-permissions/default-permissions-mio-op13-os4-camera-20260913.xml",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\etc\\default-permissions\\default-permissions-mio-op13-os4-camera-20260913.xml",
+      "bytes": 944
+    },
+    {
+      "path": "system/system_ext/etc/default-permissions/oplus_camera_default_grant_permissions_list.xml",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\etc\\default-permissions\\oplus_camera_default_grant_permissions_list.xml",
+      "bytes": 928
+    },
+    {
+      "path": "system/system_ext/etc/permissions/oplus_google_lens_config.xml",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\etc\\permissions\\oplus_google_lens_config.xml",
+      "bytes": 185
+    },
+    {
+      "path": "system/system_ext/etc/permissions/privapp-permissions-mio-op13-gallery-ai.xml",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\etc\\permissions\\privapp-permissions-mio-op13-gallery-ai.xml",
+      "bytes": 3349
+    },
+    {
+      "path": "system/system_ext/etc/permissions/privapp-permissions-mio-op13-os4-camera-20260913.xml",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\etc\\permissions\\privapp-permissions-mio-op13-os4-camera-20260913.xml",
+      "bytes": 649
+    },
+    {
+      "path": "system/system_ext/etc/permissions/privapp-permissions-oplus.xml",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\etc\\permissions\\privapp-permissions-oplus.xml",
+      "bytes": 3662
+    },
+    {
+      "path": "system/system_ext/etc/sysconfig/hiddenapi-mio-op13-gallery-ai.xml",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\etc\\sysconfig\\hiddenapi-mio-op13-gallery-ai.xml",
+      "bytes": 377
+    },
+    {
+      "path": "system/system_ext/framework/com.oplus.camera.unit.sdk.adapter.jar",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\framework\\com.oplus.camera.unit.sdk.adapter.jar",
+      "bytes": 2992483
+    },
+    {
+      "path": "system/system_ext/framework/com.oplus.camera.unit.sdk.jar",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\framework\\com.oplus.camera.unit.sdk.jar",
+      "bytes": 5126115
+    },
+    {
+      "path": "system/system_ext/framework/oplus-fwk.jar",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\framework\\oplus-fwk.jar",
+      "bytes": 373391
+    },
+    {
+      "path": "system/system_ext/lib64/libAncFilter_jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libAncFilter_jni.so",
+      "bytes": 817352
+    },
+    {
+      "path": "system/system_ext/lib64/libAncHumanDoubleExposure-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libAncHumanDoubleExposure-jni.so",
+      "bytes": 330016
+    },
+    {
+      "path": "system/system_ext/lib64/libAncHumanRetain-jni_v2.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libAncHumanRetain-jni_v2.so",
+      "bytes": 321824
+    },
+    {
+      "path": "system/system_ext/lib64/libAncHumanSegFigureFusion-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libAncHumanSegFigureFusion-jni.so",
+      "bytes": 253976
+    },
+    {
+      "path": "system/system_ext/lib64/libAncHumanVideo-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libAncHumanVideo-jni.so",
+      "bytes": 264536
+    },
+    {
+      "path": "system/system_ext/lib64/libAncHumBokeh-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libAncHumBokeh-jni.so",
+      "bytes": 264616
+    },
+    {
+      "path": "system/system_ext/lib64/libAPSClient-alog-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libAPSClient-alog-jni.so",
+      "bytes": 6816
+    },
+    {
+      "path": "system/system_ext/lib64/libAPSClient-cmd-jni-extension.oplus.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libAPSClient-cmd-jni-extension.oplus.so",
+      "bytes": 1239129
+    },
+    {
+      "path": "system/system_ext/lib64/libAPSClient-cmd-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libAPSClient-cmd-jni.so",
+      "bytes": 1022272
+    },
+    {
+      "path": "system/system_ext/lib64/libAPSClient-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libAPSClient-jni.so",
+      "bytes": 1111808
+    },
+    {
+      "path": "system/system_ext/lib64/libApsFaceBeautyPreviewJni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libApsFaceBeautyPreviewJni.so",
+      "bytes": 680016
+    },
+    {
+      "path": "system/system_ext/lib64/libApsSuperEISPreviewJni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libApsSuperEISPreviewJni.so",
+      "bytes": 487104
+    },
+    {
+      "path": "system/system_ext/lib64/libapssuspend-jni.oplus.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libapssuspend-jni.oplus.so",
+      "bytes": 52280
+    },
+    {
+      "path": "system/system_ext/lib64/libApsTiltShifPreviewJni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libApsTiltShifPreviewJni.so",
+      "bytes": 7360
+    },
+    {
+      "path": "system/system_ext/lib64/libarcsoft_gpuvideobokeh_advanced.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libarcsoft_gpuvideobokeh_advanced.so",
+      "bytes": 198736
+    },
+    {
+      "path": "system/system_ext/lib64/libarcsoft_panorama_burstcapture.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libarcsoft_panorama_burstcapture.so",
+      "bytes": 1927712
+    },
+    {
+      "path": "system/system_ext/lib64/libarcsoft_wideselfie.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libarcsoft_wideselfie.so",
+      "bytes": 2824328
+    },
+    {
+      "path": "system/system_ext/lib64/libAvatarEngineRender.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libAvatarEngineRender.so",
+      "bytes": 2922880
+    },
+    {
+      "path": "system/system_ext/lib64/libAvatarEngineRenderNative.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libAvatarEngineRenderNative.so",
+      "bytes": 2935440
+    },
+    {
+      "path": "system/system_ext/lib64/libbsproxy.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libbsproxy.so",
+      "bytes": 84904
+    },
+    {
+      "path": "system/system_ext/lib64/libcolor_select.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libcolor_select.so",
+      "bytes": 9536
+    },
+    {
+      "path": "system/system_ext/lib64/libColorMark.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libColorMark.so",
+      "bytes": 129000
+    },
+    {
+      "path": "system/system_ext/lib64/libCombineLut.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libCombineLut.so",
+      "bytes": 416256
+    },
+    {
+      "path": "system/system_ext/lib64/libCombineLutJni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libCombineLutJni.so",
+      "bytes": 8048
+    },
+    {
+      "path": "system/system_ext/lib64/libcsextimpl.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libcsextimpl.so",
+      "bytes": 1749849
+    },
+    {
+      "path": "system/system_ext/lib64/libdolbyeffect_4.1.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libdolbyeffect_4.1.so",
+      "bytes": 797241
+    },
+    {
+      "path": "system/system_ext/lib64/libextendfile.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libextendfile.so",
+      "bytes": 977112
+    },
+    {
+      "path": "system/system_ext/lib64/libFileExtender-jni.qti.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libFileExtender-jni.qti.so",
+      "bytes": 18008
+    },
+    {
+      "path": "system/system_ext/lib64/libFileExtender-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libFileExtender-jni.so",
+      "bytes": 18008
+    },
+    {
+      "path": "system/system_ext/lib64/libHdrTransform-common-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libHdrTransform-common-jni.so",
+      "bytes": 383176
+    },
+    {
+      "path": "system/system_ext/lib64/libHdrTransform-platform-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libHdrTransform-platform-jni.so",
+      "bytes": 399464
+    },
+    {
+      "path": "system/system_ext/lib64/libHeifEncoderWrapper.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libHeifEncoderWrapper.so",
+      "bytes": 51608
+    },
+    {
+      "path": "system/system_ext/lib64/libimage-native-lib.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libimage-native-lib.so",
+      "bytes": 108672
+    },
+    {
+      "path": "system/system_ext/lib64/libjni_burstpmk.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libjni_burstpmk.so",
+      "bytes": 26712
+    },
+    {
+      "path": "system/system_ext/lib64/libjni_wideselfie.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libjni_wideselfie.so",
+      "bytes": 26688
+    },
+    {
+      "path": "system/system_ext/lib64/libJniMetaTransform.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libJniMetaTransform.so",
+      "bytes": 1088872
+    },
+    {
+      "path": "system/system_ext/lib64/libjnisingleblur_api.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libjnisingleblur_api.so",
+      "bytes": 561193
+    },
+    {
+      "path": "system/system_ext/lib64/libjnistblur_api.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libjnistblur_api.so",
+      "bytes": 563209
+    },
+    {
+      "path": "system/system_ext/lib64/liblivephoto.frc.jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\liblivephoto.frc.jni.so",
+      "bytes": 402184
+    },
+    {
+      "path": "system/system_ext/lib64/libmpbase.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libmpbase.so",
+      "bytes": 6992
+    },
+    {
+      "path": "system/system_ext/lib64/libMsEffectSdk.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libMsEffectSdk.so",
+      "bytes": 370440
+    },
+    {
+      "path": "system/system_ext/lib64/libNativeWinBuffExchange.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libNativeWinBuffExchange.so",
+      "bytes": 51624
+    },
+    {
+      "path": "system/system_ext/lib64/libOPAlgoCamResize.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libOPAlgoCamResize.so",
+      "bytes": 670232
+    },
+    {
+      "path": "system/system_ext/lib64/liboplus-uah-client.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\liboplus-uah-client.so",
+      "bytes": 217904
+    },
+    {
+      "path": "system/system_ext/lib64/liboplus-uah-client_system_ext.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\liboplus-uah-client_system_ext.so",
+      "bytes": 181040
+    },
+    {
+      "path": "system/system_ext/lib64/libOplusBlurPreviewJNI.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libOplusBlurPreviewJNI.so",
+      "bytes": 405120
+    },
+    {
+      "path": "system/system_ext/lib64/liboplusdolbyeffect_4.1.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\liboplusdolbyeffect_4.1.so",
+      "bytes": 10704
+    },
+    {
+      "path": "system/system_ext/lib64/liboplusheifwriter.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\liboplusheifwriter.so",
+      "bytes": 186296
+    },
+    {
+      "path": "system/system_ext/lib64/liboplushwui_jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\liboplushwui_jni.so",
+      "bytes": 51976
+    },
+    {
+      "path": "system/system_ext/lib64/libOplusStringJNI-extension.oplus.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libOplusStringJNI-extension.oplus.so",
+      "bytes": 11568
+    },
+    {
+      "path": "system/system_ext/lib64/libOplusStringJNI.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libOplusStringJNI.so",
+      "bytes": 12336
+    },
+    {
+      "path": "system/system_ext/lib64/libsingle_camera_bokeh2_native.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libsingle_camera_bokeh2_native.so",
+      "bytes": 1026248
+    },
+    {
+      "path": "system/system_ext/lib64/libsingle_camera_bokeh_native.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libsingle_camera_bokeh_native.so",
+      "bytes": 1143424
+    },
+    {
+      "path": "system/system_ext/lib64/libsoundtouch.oplus.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libsoundtouch.oplus.so",
+      "bytes": 66225
+    },
+    {
+      "path": "system/system_ext/lib64/libsoundtouch_jni.oplus.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libsoundtouch_jni.oplus.so",
+      "bytes": 66233
+    },
+    {
+      "path": "system/system_ext/lib64/libst_mobile.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libst_mobile.so",
+      "bytes": 7895520
+    },
+    {
+      "path": "system/system_ext/lib64/libst_sticker_jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libst_sticker_jni.so",
+      "bytes": 348425
+    },
+    {
+      "path": "system/system_ext/lib64/libsuperNight.oplus.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libsuperNight.oplus.so",
+      "bytes": 7824
+    },
+    {
+      "path": "system/system_ext/lib64/libSuperTextWrapper.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libSuperTextWrapper.so",
+      "bytes": 1383704
+    },
+    {
+      "path": "system/system_ext/lib64/libWaterMark-Jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libWaterMark-Jni.so",
+      "bytes": 4974160
+    },
+    {
+      "path": "system/system_ext/lib64/libwatermark_photo.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libwatermark_photo.so",
+      "bytes": 1419528
+    },
+    {
+      "path": "system/system_ext/lib64/libXDocProcessSDK-jni.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libXDocProcessSDK-jni.so",
+      "bytes": 1573080
+    },
+    {
+      "path": "system/system_ext/lib64/libXDocProcessSDK.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libXDocProcessSDK.so",
+      "bytes": 6958712
+    },
+    {
+      "path": "system/system_ext/lib64/libYTCommon.so",
+      "policy": "stock-first-compatible-fallback",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\lib64\\libYTCommon.so",
+      "bytes": 813392
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusAppPlatform/OplusAppPlatform.apk",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusAppPlatform\\OplusAppPlatform.apk",
+      "bytes": 620386
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/ld-android.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\ld-android.so",
+      "bytes": 34256
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libaiunit_sdk_core.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libaiunit_sdk_core.so",
+      "bytes": 12816
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libApsFaceBeautyPreviewJni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libApsFaceBeautyPreviewJni.so",
+      "bytes": 680016
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libApsTiltShifPreviewJni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libApsTiltShifPreviewJni.so",
+      "bytes": 7360
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libarcsoft_gpuvideobokeh_advanced.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libarcsoft_gpuvideobokeh_advanced.so",
+      "bytes": 198736
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libbcap.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libbcap.so",
+      "bytes": 1802016
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libc++.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libc++.so",
+      "bytes": 742416
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libc++_shared.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libc++_shared.so",
+      "bytes": 1292896
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libcolor_select.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libcolor_select.so",
+      "bytes": 9536
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libColorMark.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libColorMark.so",
+      "bytes": 129000
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libdl_android.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libdl_android.so",
+      "bytes": 34848
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libempty.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libempty.so",
+      "bytes": 3888
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libexif-jpeg-aps.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libexif-jpeg-aps.so",
+      "bytes": 261816
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libFormatConverter.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libFormatConverter.so",
+      "bytes": 899272
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libgallery_fileextender.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libgallery_fileextender.so",
+      "bytes": 997576
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libGradienterNativeLib.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libGradienterNativeLib.so",
+      "bytes": 10080
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libIccProfileJni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libIccProfileJni.so",
+      "bytes": 353368
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libimage-native-lib.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libimage-native-lib.so",
+      "bytes": 108672
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libjl_ota_auth.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libjl_ota_auth.so",
+      "bytes": 14536
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libJniMetaTransform.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libJniMetaTransform.so",
+      "bytes": 1088872
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libjpeg.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libjpeg.so",
+      "bytes": 296728
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/liblibBufferUtils.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\liblibBufferUtils.so",
+      "bytes": 278224
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/liblibCommonUtils.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\liblibCommonUtils.so",
+      "bytes": 5440
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/liblicense-checker-jni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\liblicense-checker-jni.so",
+      "bytes": 215120
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libmedia_breakpad_jni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libmedia_breakpad_jni.so",
+      "bytes": 1034384
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libmmkv.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libmmkv.so",
+      "bytes": 458448
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libmorpho_anchor_tracking.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libmorpho_anchor_tracking.so",
+      "bytes": 256712
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libmorphoAnchorTracking_jni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libmorphoAnchorTracking_jni.so",
+      "bytes": 13856
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libmpbase.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libmpbase.so",
+      "bytes": 5184
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libnaiveEngine.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libnaiveEngine.so",
+      "bytes": 1309784
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libNativeWindowJNI.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libNativeWindowJNI.so",
+      "bytes": 7496
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libOPAlgoCamResize.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libOPAlgoCamResize.so",
+      "bytes": 670232
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libopencv_java4.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libopencv_java4.so",
+      "bytes": 18545488
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libpreview_show.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libpreview_show.so",
+      "bytes": 210856
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libscan_engine_decode.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libscan_engine_decode.so",
+      "bytes": 3977360
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libSplashBufferUtils.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libSplashBufferUtils.so",
+      "bytes": 12728
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libtensorflowlite.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libtensorflowlite.so",
+      "bytes": 3139672
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libTiltShiftPre.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libTiltShiftPre.so",
+      "bytes": 796760
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libvndksupport.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libvndksupport.so",
+      "bytes": 51504
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libWaterMark-Jni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libWaterMark-Jni.so",
+      "bytes": 4974160
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libwatermark_photo.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libwatermark_photo.so",
+      "bytes": 1419528
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/lib/arm64/libYuvUtil.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\lib\\arm64\\libYuvUtil.so",
+      "bytes": 67536
+    },
+    {
+      "path": "system/system_ext/priv-app/OplusCamera/OplusCamera.apk",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OplusCamera\\OplusCamera.apk",
+      "bytes": 178680244
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libaiboost.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libaiboost.so",
+      "bytes": 8981656
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libaiboost_new_jni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libaiboost_new_jni.so",
+      "bytes": 51184
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libAIGCFaceJNI.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libAIGCFaceJNI.so",
+      "bytes": 211000
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libaiunit_sdk_core.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libaiunit_sdk_core.so",
+      "bytes": 12816
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libapsultrahdr.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libapsultrahdr.so",
+      "bytes": 440456
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libarcsoft_dualcam_refocus_gallery.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libarcsoft_dualcam_refocus_gallery.so",
+      "bytes": 1204424
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libbcapJNI.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libbcapJNI.so",
+      "bytes": 1806864
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libbuffer.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libbuffer.so",
+      "bytes": 294336
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libc++.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libc++.so",
+      "bytes": 1049704
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libc++_shared.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libc++_shared.so",
+      "bytes": 1292904
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libclip_vector_db.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libclip_vector_db.so",
+      "bytes": 418864
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libcobox.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libcobox.so",
+      "bytes": 56584
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libcolor_select.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libcolor_select.so",
+      "bytes": 9536
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libColorMark.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libColorMark.so",
+      "bytes": 129000
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libColorSpaceConverter.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libColorSpaceConverter.so",
+      "bytes": 290200
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libcommon.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libcommon.so",
+      "bytes": 117112
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libCoverEnhancerJNI.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libCoverEnhancerJNI.so",
+      "bytes": 291752
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libcpu_features.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libcpu_features.so",
+      "bytes": 30808
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libCutoutEffect.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libCutoutEffect.so",
+      "bytes": 309312
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libcv_crop.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libcv_crop.so",
+      "bytes": 38880
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libcv_image_understanding.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libcv_image_understanding.so",
+      "bytes": 2986664
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libdualcam_refocus_gallery_jni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libdualcam_refocus_gallery_jni.so",
+      "bytes": 504944
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libempty.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libempty.so",
+      "bytes": 3888
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libffmpeg.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libffmpeg.so",
+      "bytes": 9160584
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libffmpegJNI.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libffmpegJNI.so",
+      "bytes": 976632
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libforecast.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libforecast.so",
+      "bytes": 227320
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libgallery_fileextender.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libgallery_fileextender.so",
+      "bytes": 997576
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libgallerymemoryjni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libgallerymemoryjni.so",
+      "bytes": 14024
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libGalleryRegionDecoder.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libGalleryRegionDecoder.so",
+      "bytes": 755680
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libgav1JNI.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libgav1JNI.so",
+      "bytes": 1292664
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libgraphics-core.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libgraphics-core.so",
+      "bytes": 244656
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libhci_face_album_api_detection_cluster.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libhci_face_album_api_detection_cluster.so",
+      "bytes": 10168512
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libHdrTransform-common-jni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libHdrTransform-common-jni.so",
+      "bytes": 383176
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libIccProfileJniForGallery.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libIccProfileJniForGallery.so",
+      "bytes": 123936
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libInverseToneMappingJNI.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libInverseToneMappingJNI.so",
+      "bytes": 14160
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libjni_cvimage_api.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libjni_cvimage_api.so",
+      "bytes": 14096
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libjni_hci_face_album_api.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libjni_hci_face_album_api.so",
+      "bytes": 91112
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libjpeg.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libjpeg.so",
+      "bytes": 296728
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libLocalHdrRus-jni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libLocalHdrRus-jni.so",
+      "bytes": 332088
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libmedia_breakpad_jni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libmedia_breakpad_jni.so",
+      "bytes": 198336
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libMNN.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libMNN.so",
+      "bytes": 2676488
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libMosaicPainter.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libMosaicPainter.so",
+      "bytes": 101224
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libMosaicPainterJNI.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libMosaicPainterJNI.so",
+      "bytes": 34752
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libmpbase.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libmpbase.so",
+      "bytes": 5184
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libnaiveEngine.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libnaiveEngine.so",
+      "bytes": 1311304
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libNvAutoTone.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libNvAutoTone.so",
+      "bytes": 281000
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libNvMSAICutter.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libNvMSAICutter.so",
+      "bytes": 3223416
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libNvStreamingSdkCore.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libNvStreamingSdkCore.so",
+      "bytes": 19259856
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libop_cv.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libop_cv.so",
+      "bytes": 5312064
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libOPAlgoCamHDRTransformGallery_mtk.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libOPAlgoCamHDRTransformGallery_mtk.so",
+      "bytes": 228880
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libOPAlgoCamHDRTransformGallery_qcom.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libOPAlgoCamHDRTransformGallery_qcom.so",
+      "bytes": 228912
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libOPAlgoCamSinglePortrait.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libOPAlgoCamSinglePortrait.so",
+      "bytes": 2577904
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/liboplus_gifdecoder.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\liboplus_gifdecoder.so",
+      "bytes": 227416
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libopluslog.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libopluslog.so",
+      "bytes": 63408
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libpaint.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libpaint.so",
+      "bytes": 6898600
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libPlatformJNI.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libPlatformJNI.so",
+      "bytes": 3880
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libportraitblurjni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libportraitblurjni.so",
+      "bytes": 243776
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libRenderEngine.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libRenderEngine.so",
+      "bytes": 196768
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/librtmp-jni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\librtmp-jni.so",
+      "bytes": 87912
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libsharebuffer.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libsharebuffer.so",
+      "bytes": 5576
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libsharedhardwarebuffer.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libsharedhardwarebuffer.so",
+      "bytes": 256192
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libtensorflow_inference.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libtensorflow_inference.so",
+      "bytes": 15417336
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libtrace.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libtrace.so",
+      "bytes": 4216
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libUhdrUtils-jni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libUhdrUtils-jni.so",
+      "bytes": 386352
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libupscale.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libupscale.so",
+      "bytes": 8592
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libUpScaleAblum.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libUpScaleAblum.so",
+      "bytes": 1104248
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libvfxmagicediteffect.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libvfxmagicediteffect.so",
+      "bytes": 452816
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libWaterMark-Jni.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libWaterMark-Jni.so",
+      "bytes": 4071576
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libwatermark_photo.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libwatermark_photo.so",
+      "bytes": 1419528
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libXDocProcessSDK.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libXDocProcessSDK.so",
+      "bytes": 6962808
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/lib/arm64/libYTCommonXImage.so",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\lib\\arm64\\libYTCommonXImage.so",
+      "bytes": 813392
+    },
+    {
+      "path": "system/system_ext/priv-app/OppoGallery2/OppoGallery2.apk",
+      "policy": "fixed-compatible",
+      "reason": "配套兼容素材，目标核心库另行动态生成",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\system_ext\\priv-app\\OppoGallery2\\OppoGallery2.apk",
+      "bytes": 356630583
+    },
+    {
+      "path": "system/vendor/lib64/android.hardware.graphics.common-V7-ndk.so",
+      "policy": "fixed-compatible",
+      "reason": "同一 V7 接口库的 vendor 命名空间副本",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\vendor\\lib64\\android.hardware.graphics.common-V7-ndk.so",
+      "bytes": 51992
+    },
+    {
+      "path": "system/vendor/lib64/libui-stock.so",
+      "policy": "fixed-compatible",
+      "reason": "sharebuffer 私有依赖，不覆盖系统 libui",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\vendor\\lib64\\libui-stock.so",
+      "bytes": 458193
+    },
+    {
+      "path": "system/vendor/lib64/libutils-stock.so",
+      "policy": "fixed-compatible",
+      "reason": "sharebuffer 私有依赖，不覆盖系统 libutils",
+      "origin": "analysis\\originos17_oplus_camera_20260926\\stage9_module\\system\\vendor\\lib64\\libutils-stock.so",
+      "bytes": 221801
+    },
+    {
+      "path": "system/system_ext/app/MioOplusGalleryPermissions/MioOplusGalleryPermissions.apk",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/app/MioOplusGalleryPermissions/MioOplusGalleryPermissions.apk",
+      "bytes": 8536
+    },
+    {
+      "path": "system/system_ext/priv-app/AIUnit/AIUnit.apk",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/AIUnit/AIUnit.apk",
+      "bytes": 181991189
+    },
+    {
+      "path": "system/system_ext/priv-app/AIUnit/lib/arm64/libaiunit_framework.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/AIUnit/lib/arm64/libaiunit_framework.so",
+      "bytes": 1241256
+    },
+    {
+      "path": "system/system_ext/priv-app/AIUnit/lib/arm64/libaiunit_framework_jni.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/AIUnit/lib/arm64/libaiunit_framework_jni.so",
+      "bytes": 226592
+    },
+    {
+      "path": "system/system_ext/priv-app/AIUnit/lib/arm64/libaiunit_sdk_core.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/AIUnit/lib/arm64/libaiunit_sdk_core.so",
+      "bytes": 12816
+    },
+    {
+      "path": "system/system_ext/priv-app/AIUnit/lib/arm64/libc++_shared.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/AIUnit/lib/arm64/libc++_shared.so",
+      "bytes": 1027408
+    },
+    {
+      "path": "system/system_ext/priv-app/AIUnit/lib/arm64/libcore_tokenizers.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/AIUnit/lib/arm64/libcore_tokenizers.so",
+      "bytes": 7662464
+    },
+    {
+      "path": "system/system_ext/priv-app/AIUnit/lib/arm64/libdatastore_shared_counter.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/AIUnit/lib/arm64/libdatastore_shared_counter.so",
+      "bytes": 7112
+    },
+    {
+      "path": "system/system_ext/priv-app/AIUnit/lib/arm64/libopencv_java4.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/AIUnit/lib/arm64/libopencv_java4.so",
+      "bytes": 17822832
+    },
+    {
+      "path": "system/system_ext/priv-app/StdID/StdID.apk",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/StdID/StdID.apk",
+      "bytes": 1094176
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libads-c.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libads-c.so",
+      "bytes": 10512
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libapminsighta.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libapminsighta.so",
+      "bytes": 102256
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libapminsightb.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libapminsightb.so",
+      "bytes": 124352
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libapplovin-native-crash-reporter.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libapplovin-native-crash-reporter.so",
+      "bytes": 867928
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libbcapJNI.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libbcapJNI.so",
+      "bytes": 1744032
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libbuffer.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libbuffer.so",
+      "bytes": 9992
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libffmpeg.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libffmpeg.so",
+      "bytes": 9160584
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libffmpegJNI.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libffmpegJNI.so",
+      "bytes": 974824
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libfile_lock.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libfile_lock.so",
+      "bytes": 9992
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libgav1JNI.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libgav1JNI.so",
+      "bytes": 1296568
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libmmkv.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libmmkv.so",
+      "bytes": 597000
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libnms.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libnms.so",
+      "bytes": 281288
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/liboplus_conscrypt_jni.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/liboplus_conscrypt_jni.so",
+      "bytes": 2152832
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libopluslog.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libopluslog.so",
+      "bytes": 63408
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libpglarmor.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libpglarmor.so",
+      "bytes": 61200
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libPlatformJNI.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libPlatformJNI.so",
+      "bytes": 3880
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libprivate-constants-v3.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libprivate-constants-v3.so",
+      "bytes": 22840
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/librtmp-jni.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/librtmp-jni.so",
+      "bytes": 87912
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libtobEmbedPagEncrypt.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libtobEmbedPagEncrypt.so",
+      "bytes": 8184
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/lib/arm64/libtt_ugen_layout.so",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/lib/arm64/libtt_ugen_layout.so",
+      "bytes": 360968
+    },
+    {
+      "path": "system/system_ext/priv-app/VideoGallery/VideoGallery.apk",
+      "policy": "fixed-compatible",
+      "reason": "AI完整应用组及私有库",
+      "origin": "tools\\OplusCameraOTA\\assets\\materials.zip!/system/system_ext/priv-app/VideoGallery/VideoGallery.apk",
+      "bytes": 83337862
+    }
+  ],
+  "apk_xpan_preview": [
+    [
+      1920,
+      864
+    ],
+    [
+      864,
+      1920
+    ]
+  ],
+  "ai_groups": [
+    "AIUnit",
+    "StdID",
+    "VideoGallery",
+    "GalleryPermissions"
+  ],
+  "excluded": [
+    "module.prop",
+    "system.prop",
+    "system/bin/cameraserver",
+    "system/lib64/libandroid.so",
+    "system/lib64/libcamera_ori.so",
+    "system/lib64/libnativewindow.so",
+    "system/lib64/libsatbridge.so",
+    "system/lib64/libstagefright.so",
+    "system/lib64/libstagefright_bufferqueue_helper.so"
+  ],
+  "hardware_exceptions": {
+    "system/odm/lib64/android.hardware.graphics.common-V7-ndk.so": "crDroid APS 配套 graphics.common V7 接口库",
+    "system/vendor/lib64/android.hardware.graphics.common-V7-ndk.so": "同一 V7 接口库的 vendor 命名空间副本",
+    "system/odm/lib64/libAlgoInterface.so": "已验证 crDroid APS 接口兼容组合",
+    "system/odm/lib64/libAlgoProcess.so": "已验证 crDroid APS 处理兼容组合，配套 V7",
+    "system/odm/lib64/libmsnativefilter.so": "N007 已修厂商判定的滤镜库",
+    "system/odm/lib64/libsharebuffer_impl.so": "依赖 libui-stock/libutils-stock 的私有 sharebuffer 组合",
+    "system/vendor/lib64/libui-stock.so": "sharebuffer 私有依赖，不覆盖系统 libui",
+    "system/vendor/lib64/libutils-stock.so": "sharebuffer 私有依赖，不覆盖系统 libutils"
+  }
+}
