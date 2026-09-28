@@ -1,8 +1,13 @@
 name: 构建完整 Windows 工具
 on:
   workflow_dispatch:
+    inputs:
+      publish_release:
+        description: 同时发布完整工具和当前源码到 Release
+        type: boolean
+        default: true
 permissions:
-  contents: read
+  contents: write
 env:
   PYTHONUTF8: '1'
   PYTHONIOENCODING: utf-8
@@ -41,3 +46,18 @@ jobs:
           compression-level: 0
           retention-days: 7
           if-no-files-found: error
+      - name: 发布已成功构建的完整成品
+        if: ${{ inputs.publish_release }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git archive --format=zip --prefix=originos-oplus-camera-ota-helper/ --output=out/OriginOSCameraOTA-source.zip HEAD
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          $tag = "ci-$env:GITHUB_RUN_NUMBER"
+          gh release view $tag --repo $env:GITHUB_REPOSITORY *> $null
+          if ($LASTEXITCODE -ne 0) {
+            gh release create $tag --repo $env:GITHUB_REPOSITORY --target $env:GITHUB_SHA --title "完整 Windows 工具：云端构建 $env:GITHUB_RUN_NUMBER" --notes-file ci/发布说明.md --prerelease
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }
+          gh release upload $tag out/OriginOSCameraOTA-windows-complete.zip out/OriginOSCameraOTA-source.zip --repo $env:GITHUB_REPOSITORY --clobber
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }

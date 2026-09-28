@@ -61,6 +61,8 @@ CLI 可执行 `python entrypoint.py --project 项目.json --result 结果.json`�
 
 在 Actions 中运行“构建完整 Windows 工具”。工作流从固定 Release 恢复全部闭源组件、兼容基线、Windows LLVM 和 ADB，然后安装 Python 依赖、执行不依赖真机的测试、**重新编译本仓库的 EXE**，最后打包全部运行材料。输出 `OriginOSCameraOTA-windows-complete.zip`，不是只有几 MB 的空壳程序。
 
+默认同时把本轮完整成品和当前源码发布为独立 `ci-运行序号` Release，避免构建附件过期后找不到成品；不需要此行为可在手动运行时关闭“同时发布”。
+
 完整发布包同时作为可下载工具和 CI 材料包，正常构建不依赖作者电脑路径、旧模块文件夹或 WSL。新用户只需另外提供其目标系统和原厂 ROM；用户专属完整 ROM 不在仓库分发。CI 构建完成不代表对新机型进行了拍摄测试。
 
 ## 致谢与权利说明
