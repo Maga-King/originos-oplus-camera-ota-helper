@@ -1,12 +1,16 @@
 # 欧加相机 OriginOS OTA 助手
 
+[![构建完整 Windows 工具](https://github.com/Maga-King/originos-oplus-camera-ota-helper/actions/workflows/build.yml/badge.svg)](https://github.com/Maga-King/originos-oplus-camera-ota-helper/actions/workflows/build.yml)
+
 面向欧加硬件移植 OriginOS 的相机兼容工具。基于用户提供的**目标 OriginOS 原包**和**本机欧加原厂 ROM**，读取镜头、vendor tag、配置与二进制，生成独立相机模块。
 
 **Windows 原生，不依赖 WSL；不会自动刷入、重启或上传手机信息。** 当前发布版为 **v0.1.2 开发预览版**，不是所有机型已验证的通用成品。
 
 ## 下载与使用
 
-到 [Releases](https://github.com/Maga-King/originos-oplus-camera-ota-helper/releases) 下载 `OriginOSCameraOTA-v0.1.2-preview-windows-full.zip`。完整解压后运行 `OriginOSCameraOTA/OriginOSCameraOTA.exe`，不要只复制 EXE。
+优先到 [完整云端成品](https://github.com/Maga-King/originos-oplus-camera-ota-helper/releases/tag/ci-4) 下载 `OriginOSCameraOTA-windows-complete.zip`，需要源码时再取同一 Release 的源码 ZIP。完整解压后运行 `OriginOSCameraOTA/OriginOSCameraOTA.exe`，不要只复制 EXE。
+
+`v0.1.2-preview` Release 的 `OriginOSCameraOTA-v0.1.2-preview-windows-full.zip` 同时保留为完整初始便携包及后续 CI 的固定素材来源。
 
 1. 选择目标 OriginOS 解包目录、本机 ColorOS/OxygenOS 解包目录。
 2. 原件不足时可主动开启 ADB 备用取材；有多台设备时明确选定设备。只构建离线模块无需连接手机。
@@ -62,6 +66,8 @@ CLI 可执行 `python entrypoint.py --project 项目.json --result 结果.json`�
 在 Actions 中运行“构建完整 Windows 工具”。工作流从固定 Release 恢复全部闭源组件、兼容基线、Windows LLVM 和 ADB，然后安装 Python 依赖、执行不依赖真机的测试、**重新编译本仓库的 EXE**，最后打包全部运行材料。输出 `OriginOSCameraOTA-windows-complete.zip`，不是只有几 MB 的空壳程序。
 
 默认同时把本轮完整成品和当前源码发布为独立 `ci-运行序号` Release，避免构建附件过期后找不到成品；不需要此行为可在手动运行时关闭“同时发布”。
+
+已实际通过 [Actions 36462659280](https://github.com/Maga-King/originos-oplus-camera-ota-helper/actions/runs/36462659280)：22 项测试通过，6 项缺少开发设备原始媒体库而明确跳过；Windows EXE 重新编译、冻结程序启动、完整打包与 Release 上传成功。没有使用 WSL，也没有连接手机。
 
 完整发布包同时作为可下载工具和 CI 材料包，正常构建不依赖作者电脑路径、旧模块文件夹或 WSL。新用户只需另外提供其目标系统和原厂 ROM；用户专属完整 ROM 不在仓库分发。CI 构建完成不代表对新机型进行了拍摄测试。
 
