@@ -1,7 +1,11 @@
 """Restore large materials from an extracted official portable Release, offline."""
 import argparse
 import shutil
+import sys
 from pathlib import Path
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
 
 p = argparse.ArgumentParser(description='从已解压的便携 Release 恢复源码构建素材；不下载、不连接手机。')
 p.add_argument('--portable', type=Path, required=True, help='包含 OriginOSCameraOTA.exe 的目录')
